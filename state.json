@@ -1,1 +1,6 @@
-{}
+{
+  "consecutive_failures": 0,
+  "alerted_about_failures": false,
+  "available": false,
+  "last_hash": "d5cedab67e5566be417a2bd0806678f4b2525a884a9fb145f096e5ca5c2007f7"
+}
