@@ -1,0 +1,8 @@
+{
+  "telegram_bot_token": "8353475188:AAEv9Oa78KKMKvhZZuHPj7fvoMuQax5E2BI",
+  "telegram_chat_id": "634501437",
+  "url": "https://mb275.securerc.co.uk/onlineleasing/mb275/floorplans.aspx",
+  "check_interval_seconds": 300,
+  "headless": true,
+  "channel": "chrome"
+}

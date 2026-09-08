@@ -1,0 +1,8 @@
+{
+  "telegram_bot_token": "PUT_YOUR_BOT_TOKEN_HERE",
+  "telegram_chat_id": "PUT_YOUR_CHAT_ID_HERE",
+  "url": "https://mb275.securerc.co.uk/onlineleasing/mb275/floorplans.aspx",
+  "check_interval_seconds": 300,
+  "headless": true,
+  "channel": "chrome"
+}
