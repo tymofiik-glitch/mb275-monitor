@@ -250,3 +250,8 @@ Call log:
 
 [2026-09-15T22:10:47] No availability.
 [2026-09-16T00:21:47] Sent availability notification.
+[2026-09-16T05:01:12] Could not extract book-now links: Locator.get_attribute: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_text(re.compile(r"book now", re.IGNORECASE)).first.locator("xpath=ancestor-or-self::a[1]")
+
+[2026-09-16T05:01:12] No availability.
