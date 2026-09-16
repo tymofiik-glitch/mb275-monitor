@@ -249,3 +249,4 @@ Call log:
   - waiting for get_by_text(re.compile(r"book now", re.IGNORECASE)).first.locator("xpath=ancestor-or-self::a[1]")
 
 [2026-09-15T22:10:47] No availability.
+[2026-09-16T00:21:47] Sent availability notification.
