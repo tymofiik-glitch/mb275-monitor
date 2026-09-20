@@ -402,3 +402,8 @@ Call log:
   - waiting for get_by_text(re.compile(r"book now", re.IGNORECASE)).first.locator("xpath=ancestor-or-self::a[1]")
 
 [2026-09-20T17:48:20] No availability.
+[2026-09-20T19:51:40] Could not extract book-now links: Locator.get_attribute: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_text(re.compile(r"book now", re.IGNORECASE)).first.locator("xpath=ancestor-or-self::a[1]")
+
+[2026-09-20T19:51:40] No availability.
