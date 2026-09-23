@@ -483,3 +483,8 @@ Call log:
 [2026-09-23T11:45:24] Telegram API returned 401: {"ok":false,"error_code":401,"description":"Unauthorized"}
 [2026-09-23T11:45:26] Telegram API returned 401: {"ok":false,"error_code":401,"description":"Unauthorized"}
 [2026-09-23T11:45:28] Sent availability notification.
+[2026-09-23T15:36:07] Could not extract book-now links: Locator.get_attribute: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_text(re.compile(r"book now", re.IGNORECASE)).first.locator("xpath=ancestor-or-self::a[1]")
+
+[2026-09-23T15:36:07] No availability.
