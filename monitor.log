@@ -557,3 +557,6 @@ Call log:
   - waiting for get_by_text(re.compile(r"book now", re.IGNORECASE)).first.locator("xpath=ancestor-or-self::a[1]")
 
 [2026-09-26T23:49:01] No availability.
+[2026-09-27T01:56:41] Telegram API returned 401: {"ok":false,"error_code":401,"description":"Unauthorized"}
+[2026-09-27T01:56:43] Telegram API returned 401: {"ok":false,"error_code":401,"description":"Unauthorized"}
+[2026-09-27T01:56:45] Sent availability notification.
