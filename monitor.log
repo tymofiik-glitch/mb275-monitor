@@ -623,3 +623,6 @@ Call log:
 [2026-09-30T23:46:23] Telegram API returned 401: {"ok":false,"error_code":401,"description":"Unauthorized"}
 [2026-09-30T23:46:26] Telegram API returned 401: {"ok":false,"error_code":401,"description":"Unauthorized"}
 [2026-09-30T23:46:28] Sent availability notification.
+[2026-10-01T02:31:11] Telegram API returned 401: {"ok":false,"error_code":401,"description":"Unauthorized"}
+[2026-10-01T02:31:13] Telegram API returned 401: {"ok":false,"error_code":401,"description":"Unauthorized"}
+[2026-10-01T02:31:15] Sent availability notification.
