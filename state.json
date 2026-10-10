@@ -2,6 +2,6 @@
   "consecutive_failures": 0,
   "alerted_about_failures": false,
   "available": true,
-  "last_hash": "8613ed546e97d17c4dabbbc7be2e08f137588ac8b5c1ddc4cc1a94483af93814",
-  "last_notified_hash": "8613ed546e97d17c4dabbbc7be2e08f137588ac8b5c1ddc4cc1a94483af93814"
+  "last_hash": "4e1d6f69c42b0470c4f5db85ed449e768b04ffb01c44d845011092e1ee56c23d",
+  "last_notified_hash": "4e1d6f69c42b0470c4f5db85ed449e768b04ffb01c44d845011092e1ee56c23d"
 }
