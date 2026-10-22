@@ -114,7 +114,7 @@ def save_state(state: dict) -> None:
         log(f"Could not save state: {e}")
 
 
-def send_telegram(cfg: dict, text: str) -> None:
+def send_telegram(cfg: dict, text: str) -> bool:
     token = cfg["telegram_bot_token"]
     chat_id = cfg["telegram_chat_id"]
     api_url = f"https://api.telegram.org/bot{token}/sendMessage"
@@ -130,11 +130,12 @@ def send_telegram(cfg: dict, text: str) -> None:
                 timeout=15,
             )
             if resp.status_code == 200:
-                return
+                return True
             log(f"Telegram API returned {resp.status_code}: {resp.text[:300]}")
         except requests.RequestException as e:
             log(f"Telegram send failed (attempt {attempt + 1}): {e}")
         time.sleep(2)
+    return False
 
 
 def fetch_page(cfg: dict):
@@ -246,9 +247,13 @@ def run_check(cfg: dict, state: dict) -> None:
         ]
         if book_links:
             message_lines += ["", "Book now link(s):"] + book_links
-        send_telegram(cfg, "\n".join(message_lines))
-        state["last_notified_hash"] = content_hash
-        log("Sent availability notification.")
+        # Only a delivered alert counts: a failed one is retried on the next
+        # run instead of being marked as sent and silently dropped.
+        if send_telegram(cfg, "\n".join(message_lines)):
+            state["last_notified_hash"] = content_hash
+            log("Sent availability notification.")
+        else:
+            log("Availability notification NOT delivered (Telegram error above); will retry.")
     elif not available_now:
         log("No availability.")
     else:

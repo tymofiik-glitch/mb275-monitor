@@ -1,0 +1,5 @@
+# Local secrets: the token lives in GitHub Actions secrets (CI) or here only on the Mac.
+config.json
+.venv/
+__pycache__/
+.DS_Store
