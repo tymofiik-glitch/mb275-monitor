@@ -1007,3 +1007,6 @@ Call log:
 [2026-10-25T01:47:28] Telegram API returned 401: {"ok":false,"error_code":401,"description":"Unauthorized"}
 [2026-10-25T01:47:30] Telegram API returned 401: {"ok":false,"error_code":401,"description":"Unauthorized"}
 [2026-10-25T01:47:32] Availability notification NOT delivered (Telegram error above); will retry.
+[2026-10-25T07:00:18] Telegram API returned 401: {"ok":false,"error_code":401,"description":"Unauthorized"}
+[2026-10-25T07:00:21] Telegram API returned 401: {"ok":false,"error_code":401,"description":"Unauthorized"}
+[2026-10-25T07:00:23] Availability notification NOT delivered (Telegram error above); will retry.
