@@ -1168,3 +1168,6 @@ Call log:
 [2026-11-05T20:49:24] Telegram API returned 401: {"ok":false,"error_code":401,"description":"Unauthorized"}
 [2026-11-05T20:49:26] Telegram API returned 401: {"ok":false,"error_code":401,"description":"Unauthorized"}
 [2026-11-05T20:49:28] Availability notification NOT delivered (Telegram error above); will retry.
+[2026-11-06T01:11:54] Telegram send failed (attempt 1): HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+[2026-11-06T01:12:11] Telegram send failed (attempt 2): HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+[2026-11-06T01:12:13] Availability notification NOT delivered (Telegram error above); will retry.
