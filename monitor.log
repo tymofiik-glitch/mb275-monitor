@@ -1303,3 +1303,6 @@ Call log:
 [2026-11-17T04:22:20] Telegram API returned 401: {"ok":false,"error_code":401,"description":"Unauthorized"}
 [2026-11-17T04:22:22] Telegram API returned 401: {"ok":false,"error_code":401,"description":"Unauthorized"}
 [2026-11-17T04:22:24] Availability notification NOT delivered (Telegram error above); will retry.
+[2026-11-17T13:42:40] Telegram API returned 401: {"ok":false,"error_code":401,"description":"Unauthorized"}
+[2026-11-17T13:42:42] Telegram API returned 401: {"ok":false,"error_code":401,"description":"Unauthorized"}
+[2026-11-17T13:42:44] Availability notification NOT delivered (Telegram error above); will retry.
