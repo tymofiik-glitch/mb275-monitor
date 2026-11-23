@@ -1363,3 +1363,6 @@ Call log:
 [2026-11-23T01:06:39] Telegram API returned 401: {"ok":false,"error_code":401,"description":"Unauthorized"}
 [2026-11-23T01:06:42] Telegram API returned 401: {"ok":false,"error_code":401,"description":"Unauthorized"}
 [2026-11-23T01:06:44] Availability notification NOT delivered (Telegram error above); will retry.
+[2026-11-23T08:58:59] Telegram API returned 401: {"ok":false,"error_code":401,"description":"Unauthorized"}
+[2026-11-23T08:59:02] Telegram API returned 401: {"ok":false,"error_code":401,"description":"Unauthorized"}
+[2026-11-23T08:59:04] Availability notification NOT delivered (Telegram error above); will retry.
